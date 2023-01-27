@@ -1,0 +1,68 @@
+*{padding:0;margin:0;outline:none;box-sizing:border-box;}
+a{text-decoration:none;}
+html{scroll-behavior:smooth;}
+body{font-family:'Raleway',sans-serif}
+header{background-color:#000;color:#fff;}
+header nav{display:flex;padding:25px 20px;justify-content:space-between;align-items:center;}
+.taxiMenu ul{display:flex;}
+.taxiName a{color:yellow;font-weight:600;font-size:30px;}
+.taxiMenu ul li{list-style:none;margin:0 15px;color:yellow;text-transform:uppercase;position:relative}
+.taxiMenu ul li::after{content:'';position:relative;height:2px;width:0%;background-color:yellow;display:block;transition:width .5s}
+.taxiMenu ul li:hover::after{width:100%;}
+.taxiMenu ul li:hover{cursor:pointer;}
+main{width:100%}
+.taxiHome{display:flex;}
+.taxiImage,.taxiBookings{width:50%;}
+.taxiImage img{height:100%;width:100%;}
+.taxiForm p{text-align:center;font-weight:600;font-size:25px;}
+.taxiForm{margin-top:15px;}
+.taxiBookings{background-color:yellow;padding-bottom:20px;}
+.taxiBookings form{width:90%;margin:auto;margin-top:40px;}
+.clientName ul{display:flex;}
+.clientName ul li{width:50%;list-style:none;margin:0 15px;}
+.clientName ul li input{width:100%;padding:10px 7px;border-radius:5px;border:1px solid #c4c4c4;}
+.clientName ul li:first-child{margin-left:0;}
+.clientName ul li:last-child{margin-right:0;}
+.clientName ul li input{font-family:'Raleway',sans-serif;margin-top:5px;}
+.clientName ul li label{font-size:13px;}
+.clientLocation{margin-top:10px;}
+.clientLocation ul{display:flex;}
+.clientLocation ul li{width:50%;list-style:none;margin:0 15px;}
+.clientLocation ul li input{width:100%;padding:10px 7px;border-radius:5px;border:1px solid #c4c4c4;}
+.clientLocation ul li:first-child{margin-left:0;}
+.clientLocation ul li:last-child{margin-right:0;}
+.clientLocation ul li input{font-family:'Raleway',sans-serif;margin-top:5px;}
+.clientLocation ul li label{font-size:13px;}
+.clientDateTime{margin-top:10px;}
+.clientDateTime ul{display:flex;}
+.clientDateTime ul li{width:50%;list-style:none;margin:0 15px;}
+.clientDateTime ul li input{width:100%;padding:10px 7px;border-radius:5px;border:1px solid #c4c4c4;}
+.clientDateTime ul li:first-child{margin-left:0;}
+.clientDateTime ul li:last-child{margin-right:0;}
+.clientDateTime ul li input{font-family:'Raleway',sans-serif;margin-top:5px;}
+.clientDateTime ul li label{font-size:13px;}
+.clientType{margin-top:10px;}
+.clientType ul{display:flex;}
+.clientType ul li{width:50%;list-style:none;margin:0 15px;}
+.clientType ul li select{width:100%;padding:10px 7px;border-radius:5px;border:1px solid #c4c4c4;}
+.clientType ul li:first-child{margin-left:0;}
+.clientType ul li:last-child{margin-right:0;}
+.clientType ul li select{font-family:'Raleway',sans-serif;margin-top:5px;appearance:none;}
+.clientType ul li label{font-size:13px;}
+.clientType ul li input{width:100%;padding:10px 7px;border-radius:5px;border:1px solid #c4c4c4;}
+.clientType ul li input{font-family:'Raleway',sans-serif;margin-top:5px;appearance:none;}
+.error{display:none;}
+.error p{font-size:12px;color:red;margin-top:3px;}
+.clientSecurity{margin-top:10px;}
+.clientSecurity p{margin-bottom:10px;font-size:15px;}
+.clientSecurity label span{font-size:13px;}
+.clientSubmit{margin-top:20px;}
+.clientSubmit button{padding:10px 20px;text-transform:uppercase;font-family:'Raleway',sans-serif;font-weight:600;position:relative;}
+.clientSubmit button{border:2px solid rgba(0,128,0,.9);color:rgba(0,128,0,.9);z-index:999;}
+.clientSubmit button:hover{color:#fff;}
+.clientSubmit button::before{content:'';background-color:rgba(0,128,0,.9);position:absolute;display:block;width:0%;
+height:36px;top:0;left:0;z-index:-999;transition:width .5s;}
+.clientSubmit button:hover::before{width:100%;}
+footer{background-color:#000;}
+footer .copyright{padding:20px 0;}
+footer .copyright p{color:#fff;text-align:center;color:yellow;}

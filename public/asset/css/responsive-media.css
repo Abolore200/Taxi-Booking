@@ -1,0 +1,17 @@
+@media screen and (max-width:768px){
+    .taxiHome{flex-direction:column;}
+    .taxiImage, .taxiBookings{width:100%;}
+    .clientName ul,.clientLocation ul,.clientDateTime ul,.clientType ul{flex-direction:column;}
+    .clientName ul li,.clientLocation ul li,.clientDateTime ul li,.clientType ul li{margin:5px 0;width:100%;}
+    .taxiBookings form{margin-top:20px;}
+    .taxiForm{margin-top:30px;}
+    .clientLocation,.clientDateTime,.clientType{margin-top:0;}
+    header nav{flex-direction:column;align-items:initial;padding:0;}
+    .taxiName{display:flex;justify-content:space-between;padding:25px 20px;align-items:center;}
+    .taxiMenu ul{flex-direction:column;padding:20px 0;}
+    .taxiMenu ul li{width:fit-content;padding:7px 5px;color:#000;}
+    .taxiMenu{background-color:yellow;display:none;}
+    .menubar span i{font-size:25px;padding:5px;color:yellow;}
+    .taxiMenu ul li::after{background-color:#000;}
+    .taxiMenu.showMenu{display:block;}
+}
